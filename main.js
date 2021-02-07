@@ -1,19 +1,19 @@
 window.onload = () => {
 
-    let BombDragNode = undefined;
+    let BombDragNode = undefined; // Bomb Node indicated intersections between travels
     var GlobalExtended = [],
-        GlobalTransitionValue = false;
+        GlobalTransitionValue = false; // Extended Grid Cells and Transitions
     var WeightedSearch = false,
         DijkstraSearch = false,
         GreedyBestFirst =false,
-        Swarm = false;
+        Swarm = false; // Conditionals control for search function calls
 
-    let CleverPath = [];
+    let CleverPath = []; // Doube Bridge Extended Paths from Bomb to Target
 
-    let mazed = false;
-
+    let mazed = false; // Control value for mazes and patterns
+ 
     const BREADTH = window.innerWidth,
-        LENGTH = window.innerHeight;
+        LENGTH = window.innerHeight; // LENGTH, BREADTH for canvas dimensions
 
     let header = document.getElementsByClassName("header");
     // header[0].style.gridTemplateRows = 50 + "px";
@@ -46,7 +46,7 @@ window.onload = () => {
     let BidirectionalBtn = document.getElementsByClassName("Bidirectional");
     let AStar = document.getElementsByClassName("AStar");
 
-    let SPEED = 0;
+    let SPEED = 0; // Default Speed in milliseconds for grid simulation
 
     for (let i = 0; i < speedbuttons.length; i++) {
 
