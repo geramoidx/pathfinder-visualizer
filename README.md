@@ -1,8 +1,8 @@
 # Pathfinder-visualizer
 
-Graphical UI index implementing various search and path algorithms related to graph theory. You can access it here. https://geramoidx.github.io/pathfinder-visualizer/
+Graphical UI index implementing various search and path algorithms related to graph theory. This project was inspired by various pathfinding simulations before it. You can access it here. https://geramoidx.github.io/pathfinder-visualizer/
 
-## Overview of Pathfinding Algorithms
+## Overview of Pathfinding Algorithms-
 
 This project implements the following pathfinding and search algorithms.
 
