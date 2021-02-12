@@ -11,8 +11,8 @@
     <title>PathFinding Visualizer Index</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/styles.css">
 </head>
 
 <body>
@@ -24,11 +24,11 @@
             Algorithms
             <div class="dropdown-content">
                 <input class="Dijkstra" type="button" value="Dijkstra's Algorithm" />
-                <!-- <input class="AStar" type="button" value="A* Search" /> -->
-                <!-- <input class="Greedy-Best" type="button" value="Greedy Best-First Search" /> -->
-                <!-- <input class="Swarm" type="button" value="Convergent Swarm Algorithm" /> -->
-                <!-- <input class="Bidirectional" type="button" value="Bidirectional Swarm Algorithm" /> -->
-                <!-- <input type="button" value="Genetic Simulation" /> -->
+                <input class="AStar" type="button" value="A* Search" />
+                <input class="Greedy-Best" type="button" value="Greedy Best-First Search" />
+                <input class="Swarm" type="button" value="Convergent Swarm Algorithm" />
+                <input class="Bidirectional" type="button" value="Bidirectional Swarm Algorithm" />
+                <input type="button" value="Genetic Simulation" />
             </div>
         </div>
 
@@ -64,7 +64,7 @@
 
     <div class="keybar-content">
 
-        <div class="grid-item">
+       <div class="grid-item">
             <div class="grid-ch">
                 <div style="padding: 3px 4px 0 4px;">
                     <svg class="" role="img" viewBox="0 0 496 512" width="15" height="15">
@@ -77,7 +77,7 @@
             <div class="grid-ch">
                 Start Node
             </div>
-        </div>
+       </div>
 
         <div class="grid-item">
             <div class="grid-ch">
@@ -132,7 +132,7 @@
                 Unvisited
             </div>
         </div>
-
+        
         <div class="grid-item">
             <div class="grid-ch">
                 <!-- <div class="key-color-2"></div> -->
@@ -142,7 +142,7 @@
                 Visited Node
             </div>
         </div>
-
+        
         <div class="grid-item">
             <div class="grid-ch">
                 <div class="key-color-4"></div>
@@ -171,7 +171,7 @@
 
     <canvas id="canvas"></canvas>
     <canvas id="target"></canvas>
-    <!-- <canvas id="bomb"></canvas> -->
+    <canvas id="bomb"></canvas>
     <canvas id="start"></canvas>
 
     <img id="source" src="assets/done.png" style="display: none;">
@@ -179,7 +179,12 @@
     <img id="sourceTarget" src="assets/BULLSEYE_.png" style="display: none;">
     <img id="sourceWeight" src="assets/WEIGHT_.png" style="display: none;">
 
-    <script src="main.js" async defer></script>
+    <!-- <img id="source" src="assets/img/bomb.png" width="300" height="300"> -->
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <script src="assets/main.js" async defer></script>
 </body>
 
 </html>
